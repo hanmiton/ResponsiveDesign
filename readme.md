@@ -25,3 +25,5 @@ Patrones de diseño
  Estrategias
  	-Graceful Degradation(desktop first)
  	-Progressive Enhancement(mobile first)
+ Tipos de media queries
+ 

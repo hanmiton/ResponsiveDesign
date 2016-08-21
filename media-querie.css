@@ -1,0 +1,25 @@
+//segudna forma hacer un media query dentro de un archivo css
+@media screen and (max-width: 800px){
+}/*media query hasta que llegue a 800px*/
+
+width: auto /* coje solo el ancho depagina teniendo en cuenta el diagrama de caja*/
+max-width: 
+/*combiar max-width con auto */
+.contenedor{
+	widows: auto;
+	max-width: 800px;
+}
+/* es mejor q el contenedor sea aquel q contenga el max width
+*/
+.titulo{
+	height: auto; /*tamaño de el contenido*/
+	float: none; /*resetienado elementos float none*/
+	position: static; /*resentieando position static*/
+	list-style: none; /*resentiedno enumeracion de listas*/	
+}
+.guitarra.b{/* que se cumplan las dos clases*/
+}
+.menu li:first-child{/* selecciona el primer hijo*/
+	text-align: center; /*permite centrar texto como elementos con inline block*/
+	
+}
