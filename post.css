@@ -1,0 +1,36 @@
+:root{
+	--bg-body: color;/*variables ocn postcss*/
+	--bg-headre: color;
+};
+
+/*usando dichas variables */
+
+.invihero{
+	background-color: var(--bg-header); /*usando variable*/
+}
+
+/*usanod cacl*/
+
+h1{
+	font-size: calc(var(--font-size)*4);
+}
+/*custum media queries*/
+@custum-media --mobile (max-width: 500px);
+/*usando custum media*/
+/*esto se encarga nested para media queries y las separa*/
+.invieHero{
+	@media(--retina){
+		.............
+	}
+}
+/*funcion color dentro de css next*/
+a{
+	color: color(red alpha(-10%));
+}
+a:hover{
+	color: color(red blackness(30%));/*oscurecer un color dentor css next*/
+}
+/*propiedad filer*/
+.blur{
+	filter: /*mirar documentaicon filter*/;
+}
