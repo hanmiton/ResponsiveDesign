@@ -21,5 +21,41 @@ max-width:
 }
 .menu li:first-child{/* selecciona el primer hijo*/
 	text-align: center; /*permite centrar texto como elementos con inline block*/
-	
+
 }
+
+input[type="text"]{/*selector de atributos*/
+
+}
+ /*modificando tamaño videos*/
+ /*cuando el video es nuestro*/
+ .video{
+ 	width: 100%;
+ }
+ /*porner video dentro de un div (video iframe)
+ y clase video-responsive-src*/
+
+ .video-responsive-src{
+ 	position: absolute;
+ 	left: 0;
+ 	right: 0;
+ 	top: 0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .videp-responsive-contenedor{
+ 	position: relative;
+ 	padding-top: 56.4%; /*regal de 3 1920 * 1080 
+ 	(1080*100)/1920= con esto se consigue la relacionde cualquier video
+ }
+ */
+ /*tablas responsive
+ */
+ .tabla .contenedor{
+ 	overflow: auto; /*se poene ocn scrooll si el elemento se desvorda
+ }
+
+*/
+
+align-items: stretch; /*para qeu ocupe todo el espacio disponible*/
