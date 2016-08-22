@@ -59,3 +59,15 @@ input[type="text"]{/*selector de atributos*/
 */
 
 align-items: stretch; /*para qeu ocupe todo el espacio disponible*/
+
+/*importnate para optimizar*/
+/*https://platzi.com/clases/responsive-design/concepto/construyendo-nuestro-proyecto3842/optimizando-la-carga-del-sitio/material/*/
+
+/*seleccinando hijos primarios**/
+header > *{
+	Seleecioaondo toos los hijos primarios de header
+
+}
+//png
+
+object-fit: cover; //permite que las imagenes no se deformen
